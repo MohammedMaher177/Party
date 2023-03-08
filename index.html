@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Alegreya+Sans&family=Nunito+Sans:ital,wght@1,800&family=Poppins:wght@400;500&family=Roboto&family=Source+Sans+Pro&display=swap"
+            rel="stylesheet">
+        <link rel="stylesheet" href="./css/bootstrap.min.css">
+        <link rel="stylesheet" href="./css/all.min.css">
+        <link rel="stylesheet" href="./css/style.css">
+    </head>
+    <body>
+        <div class="loading">Loading&#8230;</div>
+        <nav class="bg-dark nav navbar h-100 position-fixed d-flex
+            justify-content-center">
+            <div id="navOption">
+                <i class="fa-solid fa-xmark fs-1 text-white-50" id="closeNav"></i>
+                <ul class=" list-unstyled mx-auto">
+                    <li class=" nav-item"><a href="#home" class=" nav-link
+                            text-white fs-1">HOME</a></li>
+                    <li class=" nav-item"><a href="#details" class=" nav-link
+                            text-white fs-1">DETAILS</a></li>
+                    <li class=" nav-item"><a href="#duration" class=" nav-link
+                            text-white fs-1">DURATION</a></li>
+                    <li class=" nav-item"><a href="#contact" class=" nav-link
+                            text-white fs-1">CONTACT</a></li>
+                </ul>
+            </div>
+            <h3 class=" text-black-50 opacity-50" id="open">☰ close</h3>
+        </nav>
+        <section id="home" class=" mb-5">
+
+            <div class="layer d-flex justify-content-center align-items-center">
+                <div class=" text-center text-white">
+                    <h1>Egyption Party</h1>
+                    <p>Let's have Fun</p>
+                </div>
+            </div>
+        </section>
+        <section id="details" class=" w-50 mx-auto text-center p-5">
+            <h2 class=" bg-danger bg-opacity-50 p-3 mb-0" id="singerOne">Singer
+                One</h2>
+            <p class=" bg-secondary bg-opacity-25 mb-0" id="pOne">"Lorem ipsum
+                dolor sit
+                amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+                sunt in culpa qui officia deserunt mollit anim id est laborum."
+            </p>
+            <h2 class=" bg-danger bg-opacity-50 p-3 mb-0" id="singerTwo">Singer
+                Two</h2>
+            <p class=" bg-secondary bg-opacity-25 mb-0" id="pTwo">"Lorem ipsum
+                dolor sit
+                amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+                sunt in culpa qui officia deserunt mollit anim id est laborum."
+            </p>
+            <h2 class=" bg-danger bg-opacity-50 p-3 mb-0" id="singerThree">Singer
+                Three</h2>
+            <p class=" bg-secondary bg-opacity-25 mb-0" id="pThree">"Lorem ipsum
+                dolor sit
+                amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+                sunt in culpa qui officia deserunt mollit anim id est laborum."
+            </p>
+            <h2 class=" bg-danger bg-opacity-50 p-3 mb-0" id="singerFour">Singer
+                Four</h2>
+            <p class=" bg-secondary bg-opacity-25" id="pFour">"Lorem ipsum dolor
+                sit amet,
+                consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+                sunt in culpa qui officia deserunt mollit anim id est laborum."
+            </p>
+
+
+        </section>
+        <section id="duration" class=" bg-danger mb-5">
+            <div class=" position-relative">
+                <div class="bg-danger bg-opacity-75 p-5">
+                    <div class="container py-5">
+                        <div class="row">
+                            <div class="col-3">
+                                <div class=" border py-5 text-center border-1
+                                    border-white">
+                                    <h2><span id="Dayes"></span> D</h2>
+                                </div>
+                            </div>
+                            <div class="col-3">
+                                <div class=" border py-5 text-center border-1
+                                    border-white">
+                                    <h2><span id="Hours"></span> H</h2>
+                                </div>
+                            </div>
+                            <div class="col-3">
+                                <div class=" border py-5 text-center border-1
+                                    border-white">
+                                    <h2><span id="Minutes"></span> M</h2>
+                                </div>
+                            </div>
+                            <div class="col-3">
+                                <div class=" border py-5 text-center border-1
+                                    border-white">
+                                    <h2><span id="Seconds"></span> S</h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="contact" class="py-5">
+            <div class="container text-black-50">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <h2 class=" text-muted">JOIN US</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing
+                            elit.</p>
+                        <h3 class=" text-muted">CONTACT INFO</h3>
+                        <p>Why you should hire me writeup Lorem ipsum dolor sit
+                            amet, consectetuer adipiscing elit. Aenean commodo
+                            ligula eget dolor. Aenean massa. Cum sociis natoque
+                            nascetur ridiculus mus.</p>
+                        <ul class=" list-unstyled">
+                            <li class=" my-4">
+                                <i class="fa-solid fa-location-pin me-2"></i>
+                                New Street 22545, Nexa Road, New York City, USA
+                            </li>
+                            <li class=" my-4">
+                                <i class="fa-solid fa-envelope me-2"></i>
+                                <a href="" class=" text-decoration-none
+                                    text-danger">hello@uigrid.com</a>
+                            </li>
+                            <li class=" my-4">
+                                <i class="fa-solid fa-phone me-2"></i>
+                                001-000-000-000
+                            </li>
+                        </ul>
+                        <div class="icons">
+                            <i class="fa-brands fa-square-facebook border m-2
+                                border-1 p-2 fs-3"></i>
+                            <i class="fa-brands fa-square-twitter border m-2
+                                border-1 p-2 fs-3"></i>
+                            <i class="fa-brands fa-google-plus-g border border-1
+                                m-2
+                                p-2 fs-3"></i>
+                            <i class="fa-brands fa-square-github border border-1
+                                m-2
+                                p-2 fs-3"></i>
+                            <i class="fa-brands fa-behance border border-1 p-2
+                                m-2
+                                fs-3"></i>
+                            <i class="fa-brands fa-dribbble border border-1 p-2
+                                m-2
+                                fs-3"></i>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <form>
+                            <input type="text" class="my-5 form-control"
+                                name="userName" id="userName"
+                                placeholder="Enter Your Name">
+                            <input type="text" class="my-5 form-control"
+                                name="userEmail" id="userEmail"
+                                placeholder="Enter Your Email">
+                            <textarea name="message" id="message" rows="10"
+                                class=" form-control"
+                                placeholder="Enter Your Message"></textarea>
+                            <p class="text-black"><span class="text-danger"
+                                    id="outLineChar">100</span>
+                                Characyer Reamining</p>
+                            <button type="submit" id="sendMessage" class=" btn
+                                btn-danger">Send Message</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <script src="./js/bootstrap.bundle.min.js"></script>
+        <script src="./js/jquery-3.6.3.min.js"></script>
+        <script src="./js/index.js"></script>
+    </body>
+</html>
